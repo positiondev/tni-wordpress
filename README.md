@@ -14,6 +14,17 @@ Make sure somebody has added your public key to the server.
 
 ## Development
 
+`site/config/environments/development.php` is gitignored so your can develop this site using VV instead of Trellis if needed.
+
+Add `site/config/environments/development.php`:
+```
+<?php
+/** Development */
+define('SAVEQUERIES', true);
+define('WP_DEBUG', true);
+define('SCRIPT_DEBUG', true);
+```
+
 `cd trellis` and run `vagrant up`.
 
 The `site` directory contains the actual WordPress files. Change `composer.json` to add plugins, themes, etc. Run `composer update` and commit `composer.lock` before attempting to deploy. You don't need to commit anything in the `themes` directory.
