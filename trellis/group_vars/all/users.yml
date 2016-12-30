@@ -7,15 +7,20 @@ users:
     groups:
       - "{{ web_group }}"
     keys:
-      - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
-      - "{{ lookup('file', '~/.ssh/aws-tni.pub') }}"
-      # - https://github.com/username.keys
+      - https://github.com/emhoracek.keys
+      - https://github.com/dhartunian.keys
+      - https://github.com/mattraibert.keys
+      - https://github.com/cassiemoy.keys
+      - https://github.com/misfist.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
-      - "{{ lookup('file', '~/.ssh/aws-tni.pub') }}"
-      # - https://github.com/username.keys
+      - https://github.com/emhoracek.keys
+      - https://github.com/dhartunian.keys
+      - https://github.com/mattraibert.keys
+      - https://github.com/cassiemoy.keys
+      - https://github.com/misfist.keys
   - name: misfist
     groups:
       - sudo
