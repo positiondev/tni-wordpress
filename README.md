@@ -1,30 +1,34 @@
 # How to use
 
-## Unlocking the "vault"
-
-Get the vault password from somebody.
-
-Create a `.vault_pass` file in the `trellis` directory and put only the Vault password in it (it's not YAML, the only thing in the file should be the vault password.
-
-## Development
+## Setup
 
 Create `thenewinquiry.com` directory.
 
 Inside directory, `git clone git@github.com:positiondev/tni-wordpress.git`
 
-Run `vagrant up`.
+Get the vault password from somebody.
+
+Create a `.vault_pass` file in the `trellis` directory and put only the Vault password in it (it's not YAML formatted, the only thing in the file should be the vault password).
+
+Make sure somebody has added your public key to the server.
+
+## Development
+
+`cd trellis` and run `vagrant up`.
+
+The `site` directory contains the actual WordPress files. Change `composer.json` to add plugins, themes, etc. Run `composer update` and commit `composer.lock` before attempting to deploy. You don't need to commit anything in the `themes` directory.
+
+Don't manually edit anything on the server. When things are changed manually, then the updates through Ansible don't work anymore. Make server changes only through Trellis/Ansible. This ensures reproducibility of builds, correct permissions, etc.
 
 ## Deployment
 
-Run `ansible-playbook server.yml -e env=staging`.
+Run `ansible-playbook server.yml -e env=staging` (only if you make changes to the server in `trellis`).
 
-Run `./bin/deploy.sh staging thenewinquiry.com`.
-
-I’m probably forgetting stuff...
+Run `./bin/deploy.sh staging thenewinquiry.com` to deploy changes in `site`.
 
 # How I did this
 
-This is not a how-to, just notes. You shouldn't have to do any of this again.
+This is not a how-to, just notes. Nobody should have to do this stuff for TNI again.
 
 ## EC2 and CloudFlare
 
@@ -46,20 +50,23 @@ Host new-staging.positiondevapp.com
 
 ## Cloning/Forking Roots
 
+I originally tried to do this in a way that would keep the trellis and bedrock in separate repos, but this does *not* seem to be the way that Roots is intended to be used. Instead, we're going to keep them in the same repo. If we want to update trellis or bedrock later, only the files mentioned in the "Staging" and "Development" sections have changed.
+
  - Create local site directory
- - Inside directory, git clone your fork of Trellis
- - Inside directory, git clone (not fork?) Bedrock && rm .git
- - cd site and git init, create Github repo for the Bedrock repo
+ - Inside directory, `git clone --depth=1 git@github.com:positiondev/position-trellis.git && rm -rf trellis/.git`
+ - Inside directory, `git clone --depth=1 git@github.com:roots/bedrock.git site && rm -rf site/.git`
+ - `git init`, create Github repo for the tni-wordpress repo
 
 ## Development
- - Change group_vars/development/wordpress_sites.yml to correct site name, dev host names
- - Change group_vars/development/vault.yml to correct site name
-Run vagrant up
+
+ - Change `group_vars/development/wordpress_sites.yml` to correct site name, dev host names
+ - Change `group_vars/development/vault.yml` to correct site name
+ - Run `vagrant up`
 
 ## Staging
  - Change `group_vars/all/users.yml`
    - Key lookup: `"{{ lookup('file', '~/.ssh/aws-new.pub') }}"`
-   - Add admin_user: ubuntu
+   - Add `admin_user: ubuntu`
  - Change `group_vars/staging/wordpress_sites.yml`
    - Change the site name
    - Enter location of Bedrock repo
@@ -67,41 +74,29 @@ Run vagrant up
  - Change `group_vars/staging/vault.yml`
    - Generate passwords and salts
  - Change `hosts/staging`
-   - Add actual hostnames to [web] and [staging]
- - Change roles/remote-user/tasks/main.yml
+   - Add actual hostnames to `[web]` and `[staging]`
+ - Change `roles/remote-user/tasks/main.yml`
    - We removed the check for whether Ansible was able to connect as root (since we know it can’t)
  - Change `server.yml` to `apt-get update` before installing python.
- - Run ansible-playbook server.yml -e env=staging
- - Run ./bin/deploy.sh staging thenewsite.com
+ - Run `ansible-playbook server.yml -e env=staging`
+ - Run `./bin/deploy.sh staging thenewsite.com`
 
 ## Before committing, secure the passwords
 
- - Create .vault_pass and put a strong password in it
- - Copy .vault_pass to meta
- - Add vault_password_file = .vault_pass to ansible.cfg
- - Use ansible-vault to encrypt the vault files
+ - Create `.vault_pass` and put a strong password in it
+ - Copy `.vault_pass` to meta
+ - Add `vault_password_file = .vault_pass` to `ansible.cfg`
+ - Use `ansible-vault` to encrypt the vault files
 
-## What's left
+# What's left
 
  - How to share SSH keys
  - SSL (Trellis has built-in let’s encrypt, so should be straightforward)
- - Git is a little messed up
- - Documentation says to shallow clone
-   - Can’t push from a shallow clone without unshallow-ing first (adding all the old commits)
-   - Suggests to me that it’s not intended to be used as a fork by most users
 
 ## SSH keys idea
 
- - Collect every contributor’s public keys in .ssh
- - Add those keys to the list for {{ admin_user }} in users.yml
+ - Collect every contributor’s public keys in `.ssh`
+ - Add those keys to the list for `{{ admin_user }}` in `users.yml`
  - Only the first person to set up the server needs the original AWS key
- - Other contributors will refer to their own private key in .ssh/config instead of the original AWS key
+ - Other contributors will refer to their own private key in `.ssh/config` instead of the original AWS key
  - Drawback: everybody needs everyone else’s public keys? I think? (this is not so bad imho)
-
-## Git proposal
-
- - thenewsite.com is the main git repo
- - Trellis and Bedrock are git clone depth=1ed as described in the official documentation and the git history deleted
- - We only track our own git history
- - Only one repo per project
- - We can always fork later and add changes we want to make if we do find things to contribute back, and we can always update later manually
