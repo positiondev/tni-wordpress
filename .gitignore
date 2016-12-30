@@ -1,0 +1,4 @@
+# Local Configuration
+
+site/config/environments/development.php
+htdocs
