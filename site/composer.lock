@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4cd9c73936baff78870012b09bf94d16",
+    "hash": "4546bb9842078ae60e312c87fc97196f",
+    "content-hash": "c1d92464c66cf75380696fef122329d2",
     "packages": [
         {
             "name": "composer/installers",
@@ -104,7 +105,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13T19:46:30+00:00"
+            "time": "2016-04-13 19:46:30"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -141,7 +142,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-12-06T18:46:46+00:00"
+            "time": "2016-12-06 18:46:46"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -189,23 +190,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-06-11T15:15:30+00:00"
-        },
-        {
-            "name": "misfist/kale",
-            "version": "master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/misfist/kale.git",
-                "reference": "master"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/misfist/kale/archive/master.zip",
-                "reference": "master",
-                "shasum": null
-            },
-            "type": "wordpress-theme"
+            "time": "2015-06-11 15:15:30"
         },
         {
             "name": "misfist/tni",
@@ -223,6 +208,22 @@
             },
             "type": "wordpress-theme",
             "time": "2016-12-11 08:25:54"
+        },
+        {
+            "name": "misfist/tni-core-functionality",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/misfist/tni-core-functionality.git",
+                "reference": "master"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/misfist/tni-core-functionality/archive/master.zip",
+                "reference": "master",
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "oscarotero/env",
@@ -264,7 +265,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2016-05-08T17:14:32+00:00"
+            "time": "2016-05-08 17:14:32"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -321,7 +322,7 @@
             "keywords": [
                 "wordpress wp bcrypt password"
             ],
-            "time": "2016-03-01T16:27:06+00:00"
+            "time": "2016-03-01 16:27:06"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -371,7 +372,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01T10:05:43+00:00"
+            "time": "2016-09-01 10:05:43"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
@@ -412,46 +413,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/better-wp-security/"
-        },
-        {
-            "name": "wpackagist-plugin/custom-post-type-permalinks",
-            "version": "2.2.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/custom-post-type-permalinks/",
-                "reference": "tags/2.2.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-permalinks.2.2.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/custom-post-type-permalinks/"
-        },
-        {
-            "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.4.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.4.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.4.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
         },
         {
             "name": "wpackagist-plugin/delete-comments-by-status",
@@ -614,26 +575,6 @@
             "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
         },
         {
-            "name": "wpackagist-plugin/members",
-            "version": "1.1.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/members/",
-                "reference": "tags/1.1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/members.1.1.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/members/"
-        },
-        {
             "name": "wpackagist-plugin/metronet-profile-picture",
             "version": "1.4.3",
             "source": {
@@ -694,26 +635,6 @@
             "homepage": "https://wordpress.org/plugins/post-type-archive-links/"
         },
         {
-            "name": "wpackagist-plugin/user-photo",
-            "version": "0.9.10",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/user-photo/",
-                "reference": "tags/0.9.10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-photo.0.9.10.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/user-photo/"
-        },
-        {
             "name": "wpackagist-plugin/w3-total-cache",
             "version": "0.9.5.1",
             "source": {
@@ -734,16 +655,16 @@
             "homepage": "https://wordpress.org/plugins/w3-total-cache/"
         },
         {
-            "name": "wpackagist-plugin/wp-edit",
-            "version": "4.0",
+            "name": "wpackagist-plugin/wp-chosen",
+            "version": "2.1.0",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-edit/",
-                "reference": "tags/4.0"
+                "url": "https://plugins.svn.wordpress.org/wp-chosen/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-edit.4.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-chosen.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -751,7 +672,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-edit/"
+            "homepage": "https://wordpress.org/plugins/wp-chosen/"
         },
         {
             "name": "wpackagist-plugin/wp-smushit",
@@ -812,6 +733,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-term-images/"
+        },
+        {
+            "name": "wpackagist-theme/mh-magazine-lite",
+            "version": "2.5.7",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/mh-magazine-lite/",
+                "reference": "2.5.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/mh-magazine-lite.2.5.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/mh-magazine-lite/"
         }
     ],
     "packages-dev": [
@@ -891,7 +832,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-11-30T04:02:31+00:00"
+            "time": "2016-11-30 04:02:31"
         },
         {
             "name": "wpackagist-plugin/developer",
@@ -1032,12 +973,32 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-log-viewer/"
+        },
+        {
+            "name": "wpackagist-theme/colormag",
+            "version": "1.1.7",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/colormag/",
+                "reference": "1.1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/colormag.1.1.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/colormag/"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "misfist/kale": 20,
+        "misfist/tni-core-functionality": 20,
         "misfist/tni": 20
     },
     "prefer-stable": false,
