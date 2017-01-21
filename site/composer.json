@@ -43,25 +43,8 @@
     {
       "type": "package",
       "package": {
-        "name": "misfist/kale",
-        "version": "master",
-        "type": "wordpress-theme",
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/misfist/kale/archive/master.zip"
-        },
-        "source": {
-          "type": "git",
-          "url": "https://github.com/misfist/kale.git",
-          "reference": "master"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "misfist/tni",
-        "version": "master",
+        "version": "v0.1.0",
         "type": "wordpress-theme",
         "dist": {
           "type": "zip",
@@ -96,7 +79,7 @@
     "php": ">=5.6",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.7",
+    "johnpbloch/wordpress": "4.7.1",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/advanced-custom-fields": "^4.4.11",
@@ -118,19 +101,19 @@
     "wpackagist-plugin/wp-term-authors": "^0.2.0",
     "wpackagist-plugin/wp-term-images": "^0.3.1",
     "misfist/tni-core-functionality": "dev-master",
-    "wpackagist-theme/mh-magazine-lite": "^2.5.7",
-    "misfist/tni": "dev-master"
+    "wpackagist-theme/gridbox": "^1.0.8",
+    "misfist/tni": "v0.1.0"
   },
   "require-dev": {
     "wpackagist-plugin/developer": "^1.2.5",
     "wpackagist-plugin/wordpress-php-info": "^15",
     "wpackagist-plugin/term-management-tools": "^1.1.4",
+    "wpackagist-plugin/uploads-by-proxy": "^1.1.2",
     "wpackagist-plugin/user-switching": "^1.0.9",
     "wpackagist-plugin/which-template": "^4.0",
     "wpackagist-plugin/wordpress-importer": "^0.6.3",
     "wpackagist-plugin/wp-log-viewer": "^1.0.7",
-    "squizlabs/php_codesniffer": "^2.5.1",
-    "wpackagist-theme/colormag": "^1.1.7"
+    "squizlabs/php_codesniffer": "^2.5.1"
   },
   "extra": {
     "installer-paths": {
