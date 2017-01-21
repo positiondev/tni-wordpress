@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8d2b2b4942c9493d0f445dc1da3201a9",
-    "content-hash": "75cfa41a096483f5beb24326dfe28a01",
+    "hash": "441601057f4ae36717529799335a1188",
+    "content-hash": "cdd9d355a7d582b86393e31091a0c975",
     "packages": [
         {
             "name": "composer/installers",
@@ -194,7 +194,7 @@
         },
         {
             "name": "misfist/tni",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/misfist/tni-theme.git",
@@ -210,7 +210,7 @@
         },
         {
             "name": "misfist/tni-core-functionality",
-            "version": "master",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/misfist/tni-core-functionality.git",
@@ -996,9 +996,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "misfist/tni-core-functionality": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
