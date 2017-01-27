@@ -29,7 +29,7 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "source"
   },
   "repositories": [
     {
