@@ -40,7 +40,7 @@
       "type": "package",
       "package": {
         "name": "misfist/tni",
-        "version": "v0.1.6",
+        "version": "v0.1.6.1",
         "type": "wordpress-theme",
         "dist": {
           "type": "zip",
@@ -98,7 +98,7 @@
     "wpackagist-plugin/wp-term-images": "^0.3.1",
     "misfist/tni-core-functionality": "v1.0.1",
     "wpackagist-theme/gridbox": "^1.0.8",
-    "misfist/tni": "v0.1.6"
+    "misfist/tni": "v0.1.6.1"
   },
   "require-dev": {
     "wpackagist-plugin/developer": "^1.2.5",
