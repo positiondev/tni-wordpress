@@ -40,7 +40,7 @@
       "type": "package",
       "package": {
         "name": "misfist/tni",
-        "version": "v0.1.6.2",
+        "version": "v0.1.7",
         "type": "wordpress-theme",
         "dist": {
           "type": "zip",
@@ -57,7 +57,7 @@
       "type": "package",
       "package": {
         "name": "misfist/tni-core-functionality",
-        "version": "v1.0.1",
+        "version": "v1.0.2.1",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -66,6 +66,23 @@
         "source": {
           "type": "git",
           "url": "https://github.com/misfist/tni-core-functionality.git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "misfist/advanced-custom-fields",
+        "version": "v5.5.5",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/misfist/advanced-custom-fields/archive/master.zip"
+        },
+        "source": {
+          "type": "git",
+          "url": "https://github.com/misfist/advanced-custom-fields.git",
           "reference": "master"
         }
       }
@@ -78,7 +95,7 @@
     "johnpbloch/wordpress": "4.7.2",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/advanced-custom-fields": "^4.4.11",
+    "misfist/advanced-custom-fields": "v5.5.5",
     "wpackagist-plugin/better-wp-security": "^5.7.0",
     "wpackagist-plugin/delete-comments-by-status": "^1.0.0",
     "wpackagist-plugin/edit-flow": "^0.8.2",
@@ -96,9 +113,9 @@
     "wpackagist-plugin/wp-chosen": "^2.1.0",
     "wpackagist-plugin/wp-term-authors": "^0.2.0",
     "wpackagist-plugin/wp-term-images": "^0.3.1",
-    "misfist/tni-core-functionality": "v1.0.1",
+    "misfist/tni-core-functionality": "v1.0.2.1",
     "wpackagist-theme/gridbox": "^1.0.8",
-    "misfist/tni": "v0.1.6.2"
+    "misfist/tni": "v0.1.7"
   },
   "require-dev": {
     "wpackagist-plugin/developer": "^1.2.5",
