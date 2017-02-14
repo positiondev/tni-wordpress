@@ -22,6 +22,7 @@ sql-dump-*.sql
 .env
 .env.*
 !.env.example
+site/config/environments/development.php
 
 # Vendor (e.g. Composer)
 vendor/*
