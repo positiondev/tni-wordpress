@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b85b67aa1c3f15d3d4f6f66b92fe99fd",
+    "content-hash": "57f33cdc1a934dbad14cb25a3c951b7c",
     "packages": [
         {
             "name": "composer/installers",
@@ -192,8 +192,24 @@
             "time": "2015-06-11T15:15:30+00:00"
         },
         {
+            "name": "misfist/advanced-custom-fields",
+            "version": "v5.5.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/misfist/advanced-custom-fields.git",
+                "reference": "master"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/misfist/advanced-custom-fields/archive/master.zip",
+                "reference": "master",
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "misfist/tni",
-            "version": "v0.1.6",
+            "version": "v0.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/misfist/tni-theme.git",
@@ -209,7 +225,7 @@
         },
         {
             "name": "misfist/tni-core-functionality",
-            "version": "v1.0.1",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/misfist/tni-core-functionality.git",
@@ -373,26 +389,6 @@
             "time": "2016-09-01T10:05:43+00:00"
         },
         {
-            "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.11",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/4.4.11"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.11.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
-        },
-        {
             "name": "wpackagist-plugin/better-wp-security",
             "version": "5.9.0",
             "source": {
@@ -411,6 +407,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/better-wp-security/"
+        },
+        {
+            "name": "wpackagist-plugin/caldera-forms",
+            "version": "1.5.0-b-2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/caldera-forms/",
+                "reference": "tags/1.5.0-b-2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/caldera-forms.1.5.0-b-2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/caldera-forms/"
         },
         {
             "name": "wpackagist-plugin/delete-comments-by-status",
@@ -454,15 +470,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.9.6",
+            "version": "4.9.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "trunk"
+                "reference": "tags/4.9.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -474,15 +490,15 @@
         },
         {
             "name": "wpackagist-plugin/image-widget",
-            "version": "4.2.2",
+            "version": "4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/image-widget/",
-                "reference": "tags/4.2.2"
+                "reference": "tags/4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/image-widget.4.2.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/image-widget.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -534,15 +550,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.5",
+            "version": "4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.5"
+                "reference": "tags/4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -574,15 +590,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "4.0.12",
+            "version": "4.0.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/4.0.12"
+                "reference": "tags/4.0.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.0.12.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.0.13.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -714,7 +730,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-term-images",
-            "version": "0.3.1",
+            "version": "1.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-term-images/",
@@ -734,15 +750,15 @@
         },
         {
             "name": "wpackagist-theme/gridbox",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/gridbox/",
-                "reference": "1.0.8"
+                "reference": "1.0.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/gridbox.1.0.8.zip",
+                "url": "https://downloads.wordpress.org/theme/gridbox.1.0.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -756,16 +772,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.7.1",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f"
+                "reference": "86dd55a522238211f9f3631e3361703578941d9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/9b324f3a1132459a7274a0ace2e1b766ba80930f",
-                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/86dd55a522238211f9f3631e3361703578941d9a",
+                "reference": "86dd55a522238211f9f3631e3361703578941d9a",
                 "shasum": ""
             },
             "require": {
@@ -830,7 +846,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-11-30T04:02:31+00:00"
+            "time": "2017-02-02T03:30:00+00:00"
         },
         {
             "name": "wpackagist-plugin/developer",
@@ -995,7 +1011,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wpackagist-plugin/caldera-forms": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

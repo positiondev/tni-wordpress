@@ -40,7 +40,7 @@
       "type": "package",
       "package": {
         "name": "misfist/tni",
-        "version": "v0.1.10",
+        "version": "v0.1.12",
         "type": "wordpress-theme",
         "dist": {
           "type": "zip",
@@ -57,7 +57,7 @@
       "type": "package",
       "package": {
         "name": "misfist/tni-core-functionality",
-        "version": "v1.0.3",
+        "version": "v1.0.4",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -74,7 +74,7 @@
       "type": "package",
       "package": {
         "name": "misfist/advanced-custom-fields",
-        "version": "v5.5.5",
+        "version": "v5.5.7",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -96,6 +96,7 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/better-wp-security": "^5.7.0",
+    "wpackagist-plugin/caldera-forms": "^1.5.0-b-2",
     "wpackagist-plugin/delete-comments-by-status": "^1.0.0",
     "wpackagist-plugin/edit-flow": "^0.8.2",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "^4.9.3.2",
@@ -112,10 +113,10 @@
     "wpackagist-plugin/wp-chosen": "^2.1.0",
     "wpackagist-plugin/wp-term-authors": "^0.2.0",
     "wpackagist-plugin/wp-term-images": "^1.0.0",
-    "misfist/advanced-custom-fields": "v5.5.5",
-    "misfist/tni-core-functionality": "v1.0.3",
+    "misfist/advanced-custom-fields": "v5.5.7",
+    "misfist/tni-core-functionality": "v1.0.4",
     "wpackagist-theme/gridbox": "^1.0.8",
-    "misfist/tni": "v0.1.10"
+    "misfist/tni": "v0.1.12"
   },
   "require-dev": {
     "wpackagist-plugin/developer": "^1.2.5",
