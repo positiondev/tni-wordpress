@@ -57,7 +57,7 @@
       "type": "package",
       "package": {
         "name": "misfist/tni-core-functionality",
-        "version": "v1.0.5",
+        "version": "v1.0.5.1",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -114,7 +114,7 @@
     "wpackagist-plugin/wp-term-authors": "^0.2.0",
     "wpackagist-plugin/wp-term-images": "^1.0.0",
     "misfist/advanced-custom-fields": "v5.5.7",
-    "misfist/tni-core-functionality": "v1.0.5",
+    "misfist/tni-core-functionality": "v1.0.5.1",
     "wpackagist-theme/gridbox": "^1.0.8",
     "misfist/tni": "v0.2.0"
   },
