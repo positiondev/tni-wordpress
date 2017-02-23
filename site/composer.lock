@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "57f33cdc1a934dbad14cb25a3c951b7c",
+    "content-hash": "c022858cdcbdf8fe31aa000d0564e96e",
     "packages": [
         {
             "name": "composer/installers",
@@ -209,7 +209,7 @@
         },
         {
             "name": "misfist/tni",
-            "version": "v0.1.12",
+            "version": "v0.3.01",
             "source": {
                 "type": "git",
                 "url": "https://github.com/misfist/tni-theme.git",
@@ -225,7 +225,7 @@
         },
         {
             "name": "misfist/tni-core-functionality",
-            "version": "v1.0.4",
+            "version": "v1.0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/misfist/tni-core-functionality.git",
@@ -410,15 +410,15 @@
         },
         {
             "name": "wpackagist-plugin/caldera-forms",
-            "version": "1.5.0-b-2",
+            "version": "1.5.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/caldera-forms/",
-                "reference": "tags/1.5.0-b-2"
+                "reference": "tags/1.5.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/caldera-forms.1.5.0-b-2.zip",
+                "url": "https://downloads.wordpress.org/plugin/caldera-forms.1.5.0.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -470,15 +470,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "4.9.6.1",
+            "version": "4.9.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/4.9.6.1"
+                "reference": "tags/4.9.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.4.9.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -707,6 +707,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-chosen/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-retina-2x",
+            "version": "4.7.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-retina-2x/",
+                "reference": "tags/4.7.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-retina-2x.4.7.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-retina-2x/"
         },
         {
             "name": "wpackagist-plugin/wp-term-authors",
