@@ -40,7 +40,7 @@
       "type": "package",
       "package": {
         "name": "misfist/tni",
-        "version": "v0.3.0",
+        "version": "v0.3.01",
         "type": "wordpress-theme",
         "dist": {
           "type": "zip",
@@ -111,12 +111,13 @@
     "wpackagist-plugin/metronet-profile-picture": "^1.4.3",
     "wpackagist-plugin/w3-total-cache": "^0.9.4.1",
     "wpackagist-plugin/wp-chosen": "^2.1.0",
+    "wpackagist-plugin/wp-retina-2x": "^4.7.7",
     "wpackagist-plugin/wp-term-authors": "^0.2.0",
     "wpackagist-plugin/wp-term-images": "^1.0.0",
     "misfist/advanced-custom-fields": "v5.5.7",
     "misfist/tni-core-functionality": "v1.0.5.1",
     "wpackagist-theme/gridbox": "^1.0.8",
-    "misfist/tni": "v0.3.0"
+    "misfist/tni": "v0.3.1"
   },
   "require-dev": {
     "wpackagist-plugin/developer": "^1.2.5",
