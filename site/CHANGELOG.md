@@ -1,3 +1,7 @@
+### 1.7.6: 2017-0325
+
+* Removed WordPress core ("johnpbloch/wordpress": "^4.7.3") to address issue. Ref: https://discourse.roots.io/t/johnpbloch-wordpress-moved-to-a-new-configuration-and-wp-goes-missing/9124/18
+
 ### 1.7.3: 2016-12-06
 
 * Update to WordPress 4.7
