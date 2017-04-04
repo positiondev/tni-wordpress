@@ -12,6 +12,7 @@ users:
       - https://github.com/mattraibert.keys
       - https://github.com/cassiemoy.keys
       - https://github.com/misfist.keys
+      - https://github.com/frnsys.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
@@ -20,7 +21,7 @@ users:
       - https://github.com/dhartunian.keys
       - https://github.com/mattraibert.keys
       - https://github.com/cassiemoy.keys
-      - https://github.com/misfist.keys
+      - https://github.com/frnsys.keys
   - name: misfist
     groups:
       - sudo
