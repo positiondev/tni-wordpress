@@ -2,9 +2,13 @@
 
 ## Setup
 
-Create `thenewinquiry.com` directory.
+Create `thenewinquiry.com` directory
 
-Inside directory, `git clone git@github.com:positiondev/tni-wordpress.git`
+`mkdir thenewinquiry.com`
+
+Inside newly-created `thenewinquiry.com` directory: `git clone git@github.com:positiondev/tni-wordpress.git`
+
+or `mkdir thenewinquiry.com && cd thenewinquiry.com && git clone git@github.com:positiondev/tni-wordpress.git`
 
 Get the vault password from somebody.
 
@@ -12,11 +16,16 @@ Create a `.vault_pass` file in the `trellis` directory and put only the Vault pa
 
 Make sure somebody has added your public key to the server.
 
+Install Ansible Configuration for deployment
+
+Inside the `trellis` directory: `ansible-galaxy install -r requirements.yml`
+
 ## Development
 
 `site/config/environments/development.php` is gitignored so your can develop this site using VV instead of Trellis if needed.
 
-Add `site/config/environments/development.php`:
+Add to `site/config/environments/development.php`:
+
 ```
 <?php
 /** Development */
@@ -24,6 +33,8 @@ define('SAVEQUERIES', true);
 define('WP_DEBUG', true);
 define('SCRIPT_DEBUG', true);
 ```
+
+ref: https://codex.wordpress.org/WP_DEBUG
 
 `cd trellis` and run `vagrant up`.
 

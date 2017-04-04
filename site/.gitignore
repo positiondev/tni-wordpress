@@ -1,10 +1,14 @@
 # Application
+web/app/debug.log
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
+web/app/themes/*
+!web/app/themes/.gitkeep
+
 
 # WordPress
 web/wp
@@ -18,6 +22,7 @@ sql-dump-*.sql
 .env
 .env.*
 !.env.example
+site/config/environments/development.php
 
 # Vendor (e.g. Composer)
 vendor/*
