@@ -107,7 +107,7 @@ I originally tried to do this in a way that would keep the trellis and bedrock i
    - We removed the check for whether Ansible was able to connect as root (since we know it can’t)
  - Change `server.yml` to `apt-get update` before installing python.
  - Run `ansible-playbook server.yml -e env=staging`
- - Run `./bin/deploy.sh staging thenewsite.com`
+ - Run `./bin/deploy.sh staging thenewinquiry.com`
 
 ## Before committing, secure the passwords
 
