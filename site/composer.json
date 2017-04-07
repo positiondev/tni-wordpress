@@ -74,7 +74,7 @@
       "type": "package",
       "package": {
         "name": "misfist/advanced-custom-fields",
-        "version": "v5.5.9",
+        "version": "5.5.11",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -96,7 +96,7 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/better-wp-security": "^5.7.0",
-    "wpackagist-plugin/caldera-forms": "^1.5.0-b-2",
+    "wpackagist-plugin/caldera-forms": "^1.5.0",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "^4.9.3.2",
     "wpackagist-plugin/imsanity": "^2.3.8",
     "wpackagist-plugin/jetpack": "^4.3.2",
@@ -110,7 +110,7 @@
     "wpackagist-plugin/wp-retina-2x": "^4.7.7",
     "wpackagist-plugin/wp-term-authors": "^0.2.0",
     "wpackagist-plugin/wp-term-images": "^1.0.0",
-    "misfist/advanced-custom-fields": "v5.5.9",
+    "misfist/advanced-custom-fields": "^5.5.11",
     "misfist/tni-core-functionality": "v1.0.7",
     "wpackagist-theme/gridbox": "^1.0.8",
     "misfist/tni": "v0.4.0"
