@@ -48,6 +48,12 @@ Run `ansible-playbook server.yml -e env=staging` (only if you make changes to th
 
 Run `./bin/deploy.sh staging thenewinquiry.com` to deploy changes in `site`.
 
+If you run into permissions problems with cloning the git repo, try the following:
+
+- run `ssh-agent`: eval `ssh-agent -s`
+- add your key to the agent: `ssh-add ~/.ssh/id_rsa`
+- check that your key was added: `ssh-add -L`
+
 # How I did this
 
 This is not a how-to, just notes. Nobody should have to do this stuff for TNI again.
