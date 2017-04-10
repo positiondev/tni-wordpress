@@ -44,11 +44,11 @@
         "type": "wordpress-theme",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/misfist/tni-theme/archive/master.zip"
+          "url": "https://github.com/thenewinquiry/tni-theme/archive/master.zip"
         },
         "source": {
           "type": "git",
-          "url": "git@github.com:misfist/tni-theme.git",
+          "url": "git@github.com:thenewinquiry/tni-theme.git",
           "reference": "master"
         }
       }
@@ -61,11 +61,11 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/misfist/tni-core-functionality/archive/master.zip"
+          "url": "https://github.com/thenewinquiry/tni-core-functionality/archive/master.zip"
         },
         "source": {
           "type": "git",
-          "url": "https://github.com/misfist/tni-core-functionality.git",
+          "url": "https://github.com/thenewinquiry/tni-core-functionality.git",
           "reference": "master"
         }
       }
