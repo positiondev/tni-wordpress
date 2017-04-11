@@ -97,6 +97,7 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/better-wp-security": "^5.7.0",
     "wpackagist-plugin/caldera-forms": "^1.5.0",
+    "wpackagist-plugin/co-authors-plus": "^3.2.2",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "^4.9.3.2",
     "wpackagist-plugin/imsanity": "^2.3.8",
     "wpackagist-plugin/jetpack": "^4.3.2",
