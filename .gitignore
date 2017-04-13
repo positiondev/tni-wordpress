@@ -1,4 +1,7 @@
 # Local Configuration
-
-site/config/environments/development.php
 htdocs
+site/config/environments/development.php
+site/web/app/advanced-cache\.php
+site/web/app/cache/
+site/web/app/w3tc-config/
+site/web/nginx\.conf
