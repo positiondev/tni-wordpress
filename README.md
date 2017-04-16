@@ -46,7 +46,7 @@ Don't manually edit anything on the server. When things are changed manually, th
 
 Run `ansible-playbook server.yml -e env=staging` (only if you make changes to the server in `trellis`).
 
-Run `./bin/deploy.sh staging thenewinquiry.com` to deploy changes in `site`.
+Within the `trellis` directory run `./bin/deploy.sh {environement} thenewinquiry.com` to deploy changes in `site` (where `{environment}` is `staging` or `production`)
 
 If you run into permissions problems with cloning the git repo, try the following:
 
