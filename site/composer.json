@@ -36,8 +36,8 @@
     {
       "type": "package",
       "package": {
-        "name": "misfist/tni",
-        "version": "0.5.0",
+        "name": "thenewinquiry/tni",
+        "version": "0.6.1",
         "type": "wordpress-theme",
         "dist": {
           "type": "zip",
@@ -53,8 +53,8 @@
     {
       "type": "package",
       "package": {
-        "name": "misfist/tni-core-functionality",
-        "version": "1.0.8",
+        "name": "thenewinquiry/tni-core-functionality",
+        "version": "1.0.9.1",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -111,9 +111,9 @@
     "wpackagist-plugin/wp-term-authors": "^0.2.0",
     "wpackagist-plugin/wp-term-images": "^1.0.0",
     "misfist/advanced-custom-fields": "^5.5.11",
-    "misfist/tni-core-functionality": "^1.0.8",
-    "wpackagist-theme/gridbox": "^1.0.8",
-    "misfist/tni": "^0.5.0"
+    "thenewinquiry/tni-core-functionality": "^1.0.8",
+    "wpackagist-theme/gridbox": "^1.0.9.1",
+    "thenewinquiry/tni": "^0.6.1"
   },
   "require-dev": {
     "wpackagist-plugin/developer": "^1.2.5",

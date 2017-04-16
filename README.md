@@ -54,6 +54,30 @@ If you run into permissions problems with cloning the git repo, try the followin
 - add your key to the agent: `ssh-add ~/.ssh/id_rsa`
 - check that your key was added: `ssh-add -L`
 
+### Code Changes
+
+* In order to deploy changes to the theme or to update a plugin (including the core functionality plugin), the composer.json file needs to be updated.
+
+#### Custom
+
+The theme and our core functionality plugin need to be assigned a new version number (with tag in git) and that version needs to be added to the composer.json file in the `site` directory.
+
+Changes are needed in the following:
+
+`repositories` section of `composer.json`
+
+```json
+"version": "0.5.0",
+```
+
+`require` section of `composer.json`
+
+```json
+"thenewinquiry/tni": "^0.5.0"
+```
+
+To add or remove plugins, they should be added to the `require` section of the `composer.json` file. If the plugin is in the WordPress repository, the plugin can be added from [WPackagist](https://wpackagist.org/).
+
 # How I did this
 
 This is not a how-to, just notes. Nobody should have to do this stuff for TNI again.
