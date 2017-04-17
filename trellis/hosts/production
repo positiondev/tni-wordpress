@@ -2,7 +2,9 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-your_server_hostname
+tni-prod.positiondevapp.com
+tni-test-add-cert.positiondevapp.com
 
 [web]
-your_server_hostname
+tni-prod.positiondevapp.com
+tni-test-add-cert.positiondevapp.com
