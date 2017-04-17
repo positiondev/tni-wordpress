@@ -8,7 +8,7 @@ wordpress_sites:
       - canonical: tni-prod.positiondevapp.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:positiondev/tni-wordpress.git # replace with your Git repo URL
-    repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
+    repo_subtree_path: site
     branch: master
     multisite:
       enabled: false

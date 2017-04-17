@@ -3,8 +3,6 @@
 
 [production]
 tni-prod.positiondevapp.com
-tni-test-add-cert.positiondevapp.com
 
 [web]
 tni-prod.positiondevapp.com
-tni-test-add-cert.positiondevapp.com
