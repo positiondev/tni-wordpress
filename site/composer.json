@@ -37,7 +37,7 @@
       "type": "package",
       "package": {
         "name": "thenewinquiry/tni",
-        "version": "0.6.6",
+        "version": "0.6.7",
         "type": "wordpress-theme",
         "dist": {
           "type": "zip",
@@ -111,7 +111,7 @@
     "misfist/advanced-custom-fields": "^5.5.11",
     "thenewinquiry/tni-core-functionality": "^1.0.8",
     "wpackagist-theme/gridbox": "^1.0.10",
-    "thenewinquiry/tni": "^0.6.6"
+    "thenewinquiry/tni": "^0.6.7"
   },
   "require-dev": {
     "wpackagist-plugin/developer": "^1.2.5",
