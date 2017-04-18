@@ -61,7 +61,18 @@ server {
   include includes.d/{{ item.key }}/*.conf;
   include wordpress.conf;
 
+
+  location \ {
+    if (-f {{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/web/maintenance.html) {
+       return 503;
+    }
+  }
+
   location ~ \.php$ {
+   if (-f {{ www_root }}/{{ item.key }}/{{ item.value.current_path | default('current') }}/web/maintenance.html) {
+     return 503;
+    }
+
     try_files $uri /index.php;
 
     {% if item.value.cache is defined and item.value.cache.enabled | default(false) -%}
@@ -76,6 +87,11 @@ server {
     fastcgi_param DOCUMENT_ROOT $realpath_root;
     fastcgi_pass unix:/var/run/php-fpm-wordpress.sock;
   }
+
+  error_page 503 /maintenance.html;
+    location = /maintenance.html {
+  }
+
 }
 
 {% if item.value.ssl is defined and item.value.ssl.enabled | default(false) %}
