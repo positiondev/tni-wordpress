@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f710558cfad23b40abc608ca3adaf85",
+    "content-hash": "36fd96456ae9c6d4fdedc99dc32c2ece",
     "packages": [
         {
             "name": "composer/installers",
@@ -347,7 +347,7 @@
         },
         {
             "name": "thenewinquiry/tni",
-            "version": "0.6.10",
+            "version": "0.6.11",
             "source": {
                 "type": "git",
                 "url": "git@github.com:thenewinquiry/tni-theme.git",
