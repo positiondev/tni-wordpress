@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa48854d7f001c2a40d02252b7c3c5b5",
+    "content-hash": "7f710558cfad23b40abc608ca3adaf85",
     "packages": [
         {
             "name": "composer/installers",
@@ -347,7 +347,7 @@
         },
         {
             "name": "thenewinquiry/tni",
-            "version": "0.6.3",
+            "version": "0.6.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:thenewinquiry/tni-theme.git",
@@ -363,7 +363,7 @@
         },
         {
             "name": "thenewinquiry/tni-core-functionality",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thenewinquiry/tni-core-functionality.git",
@@ -646,6 +646,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/post-type-archive-links/"
+        },
+        {
+            "name": "wpackagist-plugin/shortcode-ui",
+            "version": "0.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/shortcode-ui/",
+                "reference": "tags/0.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/shortcode-ui.0.7.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/shortcode-ui/"
         },
         {
             "name": "wpackagist-plugin/w3-total-cache",
