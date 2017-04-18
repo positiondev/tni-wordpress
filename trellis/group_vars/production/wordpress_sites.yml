@@ -5,7 +5,9 @@
 wordpress_sites:
   thenewinquiry.com:
     site_hosts:
-      - canonical: tni-prod.positiondevapp.com
+      - canonical: thenewinquiry.com
+        redirects:
+          - www.thenewinquiry.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:positiondev/tni-wordpress.git # replace with your Git repo URL
     repo_subtree_path: site
