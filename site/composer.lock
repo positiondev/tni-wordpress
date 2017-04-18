@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a96d485cab64b051d2d7184e378b0f39",
+    "content-hash": "4f55e5c0f9874407eac1535b5b64db70",
     "packages": [
         {
             "name": "composer/installers",
@@ -344,6 +344,38 @@
                 "wordpress wp bcrypt password"
             ],
             "time": "2016-03-01T16:27:06+00:00"
+        },
+        {
+            "name": "thenewinquiry/tni",
+            "version": "0.6.11",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:thenewinquiry/tni-theme.git",
+                "reference": "master"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/thenewinquiry/tni-theme/archive/master.zip",
+                "reference": "master",
+                "shasum": null
+            },
+            "type": "wordpress-theme"
+        },
+        {
+            "name": "thenewinquiry/tni-core-functionality",
+            "version": "1.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thenewinquiry/tni-core-functionality.git",
+                "reference": "master"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/thenewinquiry/tni-core-functionality/archive/master.zip",
+                "reference": "master",
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "vlucas/phpdotenv",
