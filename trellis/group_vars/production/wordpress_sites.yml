@@ -16,4 +16,5 @@ wordpress_sites:
       enabled: true
       provider: letsencrypt
     cache:
-      enabled: false
+      enabled: true
+      duration: 30s
