@@ -108,7 +108,7 @@
     "wpackagist-plugin/wp-term-authors": "^0.2.0",
     "wpackagist-plugin/wp-term-images": "^1.0.0",
     "misfist/advanced-custom-fields": "^5.5.11",
-    "thenewinquiry/tni-core-functionality": "1.0.12",
+    "thenewinquiry/tni-core-functionality": "1.0.13",
     "thenewinquiry/tni": "0.6.12",
     "wpackagist-theme/gridbox": "^1.2.2"
   },
