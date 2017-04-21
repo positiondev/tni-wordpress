@@ -54,6 +54,10 @@ If you run into permissions problems with cloning the git repo, try the followin
 - add your key to the agent: `ssh-add ~/.ssh/id_rsa`
 - check that your key was added: `ssh-add -L`
 
+When updating the plugin or theme, update the version numbers in `site/composer.json` (for each there are two locations to update the version).
+
+For whatever reason, Trellis doesn't run `composer update`...we can add this into the playbook eventually but for now after deploying, ssh into the server and cd into `/srv/www/thenewinquiry.com/current` and run `composer update`.
+
 ### Code Changes
 
 * In order to deploy changes to the theme or to update a plugin (including the core functionality plugin), the composer.json file needs to be updated.
