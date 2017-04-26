@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "12733cf88aff832234db0ca807d524e4",
+    "content-hash": "883d056d37885e10e30b39fa1234d0a8",
     "packages": [
         {
             "name": "composer/installers",
@@ -363,7 +363,7 @@
         },
         {
             "name": "thenewinquiry/tni-core-functionality",
-            "version": "1.0.11",
+            "version": "1.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thenewinquiry/tni-core-functionality.git",
@@ -426,6 +426,26 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/autocomplete-for-relevanssi",
+            "version": "0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autocomplete-for-relevanssi/",
+                "reference": "tags/0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autocomplete-for-relevanssi.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autocomplete-for-relevanssi/"
         },
         {
             "name": "wpackagist-plugin/better-wp-security",
@@ -608,6 +628,26 @@
             "homepage": "https://wordpress.org/plugins/post-type-archive-links/"
         },
         {
+            "name": "wpackagist-plugin/relevanssi",
+            "version": "3.5.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/relevanssi/",
+                "reference": "tags/3.5.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/relevanssi.3.5.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/relevanssi/"
+        },
+        {
             "name": "wpackagist-plugin/shortcode-ui",
             "version": "0.7.1",
             "source": {
@@ -629,15 +669,15 @@
         },
         {
             "name": "wpackagist-plugin/w3-total-cache",
-            "version": "0.9.5.2",
+            "version": "0.9.5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/0.9.5.2"
+                "reference": "tags/0.9.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.5.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.5.3.zip",
                 "reference": null,
                 "shasum": null
             },
