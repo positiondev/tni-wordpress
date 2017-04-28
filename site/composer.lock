@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "546b3a184de9cdf18bdfd3a7cd757367",
+    "content-hash": "72c1925b8808bac11f1f63a38e818761",
     "packages": [
         {
             "name": "composer/installers",
@@ -231,23 +231,6 @@
             "time": "2015-06-11T15:15:30+00:00"
         },
         {
-            "name": "misfist/-relevanssi-premium",
-            "version": "master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/misfist/-relevanssi-premium.git",
-                "reference": "master"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/misfist/-relevanssi-premium/archive/master.zip",
-                "reference": "master",
-                "shasum": null
-            },
-            "type": "wordpress-plugin",
-            "time": "2017-04-25 17:55:23"
-        },
-        {
             "name": "misfist/advanced-custom-fields",
             "version": "5.5.11",
             "source": {
@@ -262,6 +245,23 @@
                 "shasum": null
             },
             "type": "wordpress-plugin"
+        },
+        {
+            "name": "misfist/relevanssi-premium",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/misfist/-relevanssi-premium.git",
+                "reference": "master"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/misfist/-relevanssi-premium/archive/master.zip",
+                "reference": "master",
+                "shasum": null
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-04-25 17:55:23"
         },
         {
             "name": "oscarotero/env",
@@ -988,7 +988,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "misfist/-relevanssi-premium": 20
+        "misfist/relevanssi-premium": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
