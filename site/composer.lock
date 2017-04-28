@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "05835f2556eafb2363405b79abdc2211",
+    "content-hash": "546b3a184de9cdf18bdfd3a7cd757367",
     "packages": [
         {
             "name": "composer/installers",
@@ -229,6 +229,23 @@
                 "wordpress"
             ],
             "time": "2015-06-11T15:15:30+00:00"
+        },
+        {
+            "name": "misfist/-relevanssi-premium",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/misfist/-relevanssi-premium.git",
+                "reference": "master"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/misfist/-relevanssi-premium/archive/master.zip",
+                "reference": "master",
+                "shasum": null
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-04-25 17:55:23"
         },
         {
             "name": "misfist/advanced-custom-fields",
@@ -608,26 +625,6 @@
             "homepage": "https://wordpress.org/plugins/post-type-archive-links/"
         },
         {
-            "name": "wpackagist-plugin/relevanssi",
-            "version": "3.5.8",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/relevanssi/",
-                "reference": "tags/3.5.8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/relevanssi.3.5.8.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/relevanssi/"
-        },
-        {
             "name": "wpackagist-plugin/shortcode-ui",
             "version": "0.7.2",
             "source": {
@@ -968,26 +965,6 @@
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
-            "name": "wpackagist-plugin/wordpress-php-info",
-            "version": 15,
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-php-info/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-php-info.zip?timestamp=1464532891",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-php-info/"
-        },
-        {
             "name": "wpackagist-plugin/wp-log-viewer",
             "version": "1.1.0",
             "source": {
@@ -1010,7 +987,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "misfist/-relevanssi-premium": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
