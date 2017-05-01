@@ -37,7 +37,7 @@
       "type": "package",
       "package": {
         "name": "thenewinquiry/tni",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "type": "wordpress-theme",
         "dist": {
           "type": "zip",
@@ -92,11 +92,11 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/misfist/-relevanssi-premium/archive/master.zip"
+          "url": "https://github.com/misfist/relevanssi-premium/archive/master.zip"
         },
         "source": {
           "type": "git",
-          "url": "https://github.com/misfist/-relevanssi-premium.git",
+          "url": "https://github.com/misfist/relevanssi-premium.git",
           "reference": "master"
         }
       }
@@ -127,7 +127,7 @@
     "wpackagist-plugin/wp-term-images": "^1.0.0",
     "misfist/advanced-custom-fields": "^5.5.11",
     "thenewinquiry/tni-core-functionality": "1.1.0",
-    "thenewinquiry/tni": "0.7.0",
+    "thenewinquiry/tni": "0.7.1",
     "wpackagist-theme/gridbox": "^1.2.2"
   },
   "require-dev": {
