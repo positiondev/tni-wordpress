@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae0ea02eb689960e3f672101a01473b6",
+    "content-hash": "7ba928234b9e6394ab8a43099bfd78ac",
     "packages": [
         {
             "name": "composer/installers",
@@ -364,7 +364,7 @@
         },
         {
             "name": "thenewinquiry/tni",
-            "version": "0.7.1",
+            "version": "0.7.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:thenewinquiry/tni-theme.git",
@@ -380,7 +380,7 @@
         },
         {
             "name": "thenewinquiry/tni-core-functionality",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thenewinquiry/tni-core-functionality.git",
@@ -546,15 +546,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.8.2",
+            "version": "4.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.8.2"
+                "reference": "tags/4.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.8.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -603,6 +603,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
+        },
+        {
+            "name": "wpackagist-plugin/pixelyoursite",
+            "version": "5.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/pixelyoursite/",
+                "reference": "tags/5.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/pixelyoursite.5.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/pixelyoursite/"
         },
         {
             "name": "wpackagist-plugin/post-type-archive-links",
