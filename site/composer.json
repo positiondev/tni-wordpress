@@ -54,7 +54,7 @@
       "type": "package",
       "package": {
         "name": "thenewinquiry/tni-core-functionality",
-        "version": "1.1.1",
+        "version": "1.2.0",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -100,23 +100,6 @@
           "reference": "master"
         }
       }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "fusioneng/co-authors-plus-roles",
-        "version": "master",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/fusioneng/Co-Authors-Plus-Roles/archive/master.zip"
-        },
-        "source": {
-          "type": "git",
-          "url": "https://github.com/fusioneng/Co-Authors-Plus-Roles.git",
-          "reference": "master"
-        }
-      }
     }
   ],
   "require": {
@@ -128,7 +111,6 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/better-wp-security": "^5.7.0",
     "wpackagist-plugin/co-authors-plus": "3.2.2",
-    "fusioneng/co-authors-plus-roles": "dev-master",
     "wpackagist-plugin/codepress-admin-columns": "^2.5.6.4",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "^4.9.3.2",
     "wpackagist-plugin/imsanity": "^2.3.8",
@@ -145,7 +127,7 @@
     "wpackagist-plugin/wp-term-authors": "^0.2.0",
     "wpackagist-plugin/wp-term-images": "^1.0.0",
     "misfist/advanced-custom-fields": "^5.5.12",
-    "thenewinquiry/tni-core-functionality": "1.1.1",
+    "thenewinquiry/tni-core-functionality": "1.2.0",
     "thenewinquiry/tni": "0.7.2",
     "wpackagist-theme/gridbox": "^1.2.2"
   },

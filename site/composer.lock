@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb53d7420321af20a0e5458be766808f",
+    "content-hash": "3a0b318733c66ebc1a3173ffedbf1110",
     "packages": [
         {
             "name": "composer/installers",
@@ -105,23 +105,6 @@
                 "zikula"
             ],
             "time": "2016-04-13T19:46:30+00:00"
-        },
-        {
-            "name": "fusioneng/co-authors-plus-roles",
-            "version": "master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fusioneng/Co-Authors-Plus-Roles.git",
-                "reference": "master"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/fusioneng/Co-Authors-Plus-Roles/archive/master.zip",
-                "reference": "master",
-                "shasum": null
-            },
-            "type": "wordpress-plugin",
-            "time": "2015-11-10 17:07:15"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -397,7 +380,7 @@
         },
         {
             "name": "thenewinquiry/tni-core-functionality",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thenewinquiry/tni-core-functionality.git",
@@ -603,15 +586,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "4.1.1",
+            "version": "4.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/4.1.1"
+                "reference": "tags/4.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -923,15 +906,15 @@
         },
         {
             "name": "wpackagist-plugin/uploads-by-proxy",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/uploads-by-proxy/",
-                "reference": "tags/1.1.2"
+                "reference": "tags/1.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/uploads-by-proxy.1.1.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/uploads-by-proxy.1.1.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1025,7 +1008,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "fusioneng/co-authors-plus-roles": 20,
         "misfist/relevanssi-premium": 20
     },
     "prefer-stable": false,
