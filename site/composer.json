@@ -54,7 +54,7 @@
       "type": "package",
       "package": {
         "name": "thenewinquiry/tni-core-functionality",
-        "version": "1.2.4",
+        "version": "1.2.5",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -127,7 +127,7 @@
     "wpackagist-plugin/wp-term-authors": "^0.2.0",
     "wpackagist-plugin/wp-term-images": "^1.0.0",
     "misfist/advanced-custom-fields": "^5.5.12",
-    "thenewinquiry/tni-core-functionality": "1.2.4",
+    "thenewinquiry/tni-core-functionality": "1.2.5",
     "thenewinquiry/tni": "0.7.7",
     "wpackagist-theme/gridbox": "^1.2.2"
   },
