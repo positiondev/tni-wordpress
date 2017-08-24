@@ -40,7 +40,7 @@
       "type": "package",
       "package": {
         "name": "thenewinquiry/tni",
-        "version": "0.7.16",
+        "version": "0.7.17",
         "type": "wordpress-theme",
         "dist": {
           "type": "zip",
@@ -131,7 +131,7 @@
     "wpackagist-plugin/wp-term-images": "^1.0.0",
     "misfist/advanced-custom-fields": "^5.5.12",
     "thenewinquiry/tni-core-functionality": "1.2.9",
-    "thenewinquiry/tni": "0.7.16",
+    "thenewinquiry/tni": "0.7.17",
     "wpackagist-theme/gridbox": "^1.2.2"
   },
   "require-dev": {
